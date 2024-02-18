@@ -3,24 +3,36 @@ El programa “elige” un número al azar entre uno y un millón y pregunta por
 visitante intenta acertar en una ventana emergente. Tras cada respuesta, una nueva
 ventana dice “el número es Mayor” o “el número es Menor” y se pide un nuevo número,
 hasta que el usuario lo acierta. En ese momento una ventana lo felicita y muestra el número
-de intentos que ha realizado hasta el acierto. */
-cont=0;
-for (let i=0; i<50; i++){   //+1 para que no incluya el 0
-    const num= Math.floor(Math.random()*100)+1; /*Math.floor(x) Devuelve el valor de x redondeado hacia abajo a su entero más cercano*/
-   do {
-   let num1= prompt("Ingrese un un numero de 1 a 100 y tratare de adivinarlo"); 
-          cont ++;
-    if (num > num1)  {
-        prompt("Ingrese un numero mayor");
-        } else (num<num1)
-        {
-            prompt("Ingrese un numero menor");
+de intentos que ha realizado hasta el acierto.
+
+  
+     Math.floor(x) Devuelve el valor de x redondeado hacia abajo a su entero más cercano
+     random()	Returns a random number between 0 and 1
+     !isNan  valida que sea un numero*/
+    
+
+
+var num=Math.floor(Math.random ()*100);
+let contador=0;
+let limInferior=0;
+let limSuperior=100;
+
+while( true){
+    var num1=parseInt(prompt("Adivine un numero entre "+ limInferior +" y "+ limSuperior));
+    if(num ===num1){
+        alert("Adivinaste! en " + contador + " intentos ");
+        contador++;
+        break;
+    }else{
+            if(num1<num){
+                alert("Es mas alto");
+
+                }else{
+                alert("Es mas bajo")
+                }
+            }contador++;
         }
-        
-    }while
-        (num == num1){
-            prompt("Adivinaste");
-    }
-    console.log("Acerto en :" + cont +"intentos");                       /*random()	Returns a random number between 0 and 1*/
-}
-REVISAR
+    
+
+
+

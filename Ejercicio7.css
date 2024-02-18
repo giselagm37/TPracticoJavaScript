@@ -1,0 +1,16 @@
+h2{
+    color: blueviolet;
+    font-weight: 700;
+}
+button{
+    color: black;
+    background-color: yellowgreen;
+    font-weight: 500;
+}
+div{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(201, 143, 188);
+    margin-right: 100px;
+
+}

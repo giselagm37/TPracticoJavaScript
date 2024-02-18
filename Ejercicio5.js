@@ -23,3 +23,4 @@ for (let i=0; i<50; i++){   //+1 para que no incluya el 0
     }
     console.log("Acerto en :" + cont +"intentos");                       /*random()	Returns a random number between 0 and 1*/
 }
+REVISAR

@@ -9,5 +9,11 @@
 <body>
     <h4>Realice una página que permita cargar una fecha en el formato DD-MM-YYYY y diga
         cuántos días faltan o ya pasaron respecto del día de hoy.</h4>
+        <form  name="fechas" onsubmit="event.preventDefault(),valido(this.fechaelegida.value)" >
+            <input type="text" id="fechaelegida">
+            <input type="submit" value="validar">
+        </form>
+        <div><p id="texto"></p></div>
+        
 </body>
 </html>

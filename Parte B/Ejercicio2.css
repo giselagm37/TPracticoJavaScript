@@ -1,0 +1,18 @@
+*{
+    padding: 10px;
+    font-style: oblique;
+}
+
+div{
+background-color: aquamarine;
+width: 250px ;
+height: 800px;
+border: 1px solid;
+
+}
+
+.interno{
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+}

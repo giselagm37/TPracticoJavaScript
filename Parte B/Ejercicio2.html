@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 javascript PARTE B</title>
+    <script src="Ejercicio2.js"></script>
+    <link rel="stylesheet" href="Ejercicio2.css">
+</head>
+<body>
+    Realice un formulario que contenga Nombre, Apellido, Sexo, Fecha de nacimiento y mail.
+    Luego realice las validaciones para cada uno de los campos.
+
+    <div>
+        <form action="" id="formulario" onsubmit="validar()">
+            <p>Complete el formulario</p>
+            <div class="interno">
+                <label for="nombre" type="text" placeholder="Nombre">Nombre: </label> <br>
+                <input type="text" id="Nombre" name="Nombre" required>
+            </div>
+            <div class="interno">
+                <label for="apellido" type="text" placeholder="Apellido">Apellido: </label>
+            <input type="text" id="apellido" name="Apellido" required> 
+            </div>
+            <div class="interno">
+                <label for="sexo" type="text" placeholder="Sexo">Sexo: </label>
+                <input type="text" id="sexo" name="nombre" required>
+            </div>
+            <div class="interno">
+                <label for="FechaNacimiento" type="number" placeholder="FechaNacimiento">Fecha de Nacimiento: </label>
+                <input type="number" id="FechaNacimiento" name="FechaNacimiento" required>
+            </div>
+            <div class="interno">
+                <label for="mail" type="text" placeholder="mail">E-mail: </label>
+                <input type="text" id="mail" name="mail" required>
+            </div>
+            <input type="submit" value="Enviar">
+
+            <p id="mensaje"></p>
+        </form> 
+        
+
+       
+    
+        
+    </div>
+   
+    
+</body>
+</html>

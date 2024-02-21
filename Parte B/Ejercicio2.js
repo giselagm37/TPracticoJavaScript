@@ -9,16 +9,16 @@ function validar(){
     let sexo= document.getElementById('sexo').value;
     let FechaNacimiento= document.getElementById('FechaNacimiento').value;
     let mail= document.getElementById('mail').value;
-    let text;
     
-    if (nombre ==='' || apellido==='' || sexo==='' || FechaNacimiento==='' || mail==='') {
+    
+    if (nombre ==='' || apellido ==='' || sexo ==='' || FechaNacimient ==='' || mail==='') {
         alert('Por favor complete todos los campos')
       return false;
     } else {
-       text="FORMULARIO ENVIADO"
+        alert("FORMULARIO ENVIADO");
       return true;
     }
-    document.getElementById('mensaje').innerHTML = text;
+  
 
   }
   

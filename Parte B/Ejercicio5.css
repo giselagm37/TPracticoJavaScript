@@ -1,0 +1,18 @@
+
+.contenedor{
+    width: 250px;
+    height: 350px;
+    background-color: cadetblue;
+    border-radius: 1px;
+    padding: 5px;
+}
+.interno{
+    width: 250px;
+    height: 100px;
+}
+img{
+    float:right
+}
+input{
+    float: left;
+}

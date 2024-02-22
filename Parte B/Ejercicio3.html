@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio3.css">
+    <script src="Ejercicio3.js"></script>
+</head>
+<body>
+    <!--
+        Realizar un formulario donde: la longitud del nombre sea mayor de cuatro caracteres. El
+    nombre sólo debe contener caracteres del alfabeto español (no contiene números ni
+    caracteres no alfanuméricos). La edad sólo debe contener números y estar comprendido
+    entre 18 y 30. La dirección de correo debe incluir una arroba y su longitud sea superior a
+    cinco caracteres.
+    -->
+    <div id="Contenedor-form">
+        <form action="" onsubmit="return validar()">
+        <div class="interno">
+            <label for="nombre" >Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="interno">
+            <label for="Edad" type="number">Edad: </label>
+            <input type="number" id="edad" name="edad">
+        </div>
+        <div class="interno">
+            <label for="mail" type="text">E-mail: </label>
+            <input type="text" id="mail" name="mail">
+        </div>
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

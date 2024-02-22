@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 javascript PARTE B</title>
+    <script src="Ejercicio5.js"></script>
+    <link rel="stylesheet" href="Ejercicio5.css">
+</head>
+<body>
+    <h4>Realice una página donde el usuario pueda cargar un contacto. El contacto de esa
+        persona debe tener al menos un teléfono y como máximo 3. Además debe ser obligatoria la
+        carga del mail. Realice las validaciones necesarias.
+    </h4>
+    <div class="contenedor">
+
+        <h3>Crear contacto </h3>
+        <button type="button" onsubmit="return validar()">Guardar</button>
+        <input type="submit" value="Guardar">
+
+        <div class="interno">
+            <img src="usuario.png" alt="" width="50px" height="50px">
+            <input id="Nombre" type="text" placeholder="Nombre">
+            <input id="Apellido" type="text" placeholder="Apellido">
+        </div>
+        <div class="interno">
+            <img src="telefono.png" alt="" width="50px" height="50px">
+            <input id="telefono" type="number" placeholder="Telefono">
+            <input id="telefono" type="number" placeholder="Telefono">
+            <input id="telefono" type="number" placeholder="Telefono">
+        </div>
+        <div class="interno">
+            <img src="sobre.png" alt="" width="50px" height="50px">
+            <input id="correo" type="text" placeholder="Correo">
+        </div>
+      
+    </div>
+
+</body>
+</html>

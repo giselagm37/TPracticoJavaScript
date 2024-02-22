@@ -1,0 +1,61 @@
+body{
+    background-size: auto;
+    background-color: darkgray;
+    /*display:flex;
+    align-items: center;
+    justify-content: center;*/
+    
+}
+.contenedor{
+    height: 150px;
+    width: 600px;
+}
+#caja1{
+    background-color: red;
+   
+}
+#caja2{
+    background-color: yellow;
+   
+}
+
+#caja3{
+    background-color: green;
+}
+
+#caja4{
+    background-color: blue;
+}
+#caja5{
+    background-color: pink;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    display:inline-block;
+    border-radius: 50px;
+}
+
+.color:nth-child(1){ background-color: red;}
+.color:nth-child(2){ background-color: green;}
+.color:nth-child(3){ background-color: blue;}
+
+/*
+.animate-bg:before, .animate-bg:after{
+    background-color: gold;
+    animation: alternate;*/
+
+/*cambia solo el cuadrado
+@keyFrames cambioColor{
+    from{
+        background-color: darkorchid;
+    }
+    to{
+        background-color: blue;
+    }
+}
+ body:hover{
+    background-color: cornflowerblue;
+}     
+*/  

@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1 javascript PARTE B</title>
-    <script src="Ejercicio6.js"></script>
+    
     <link rel="stylesheet" href="Ejercicio6.css">
 </head>
-<body>
+<body id="cambio">
     <h4>Realiza una página que muestre cinco cuadrados de diferentes colores. Cuando el ratón
         pase por encima de alguno de ellos el color de fondo será del color de relleno del cuadrado.</h4>
         <h3>Elija un color</h3>
-    <div class="caja1" onmouseover="cambiarColor(' darkorchid')">
-        CAJA 1
-    </div> 
-    <div class="caja2">
-        CAJA 2
-    </div> 
-    <div class="caja3">
-        CAJA 3
-    </div> 
-    <div class="caja4">
-        CAJA 4
-    </div>
-    <div class="caja5">
-        CAJA 5
-    </div>
+
+    <div class="contenedor">
+        <div id="caja1"  onmouseover="cambioColor('red')" >
+            
+        </div> 
+        <div id="caja2" onmouseover="cambioColor('yellow')">
+            
+        </div> 
+        <div id="caja3" onmouseover= "cambioColor('green')">
+            
+        </div> 
+        <div id="caja4" onmouseover= "cambioColor('blue')">
+            
+        </div>
+        <div id="caja5" onmouseover="cambioColor('pink')">
+            
+        </div>
+    </div>    
     
+    <script src="Ejercicio6.js"></script>
 </body>
 </html>

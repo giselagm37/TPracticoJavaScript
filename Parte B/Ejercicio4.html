@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>eje4</title>
+  <script src="ejercicio4.js"></script>
+  <link rel="stylesheet" href="Ejercicio4.css">
+</head>
+
+<body>
+  <!-- 
+  Realice un formulario para la carga de datos de un CD. Realice las validaciones
+correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
+para cargar la canción (nombre, compositor, duración).
+  -->
+  <div class="contenedor">
+    <form class="formulario">
+      <div id="interno">
+        <label for="nombre" id="label">Nombre de Canción</label>
+        <input id="nombre" name="nombre" type="text">
+      </div>
+      <div id="interno">
+        <label for="compositor" id="label">Nombre de Compositor</label>
+        <input id="compositor" name="compositor" type="text">
+      </div>
+      <div id="interno">
+        <label for="duracion" id="label"> Duración</label>
+        <input type="number" name="duracion" id="duracion">
+      </div>
+
+      <button id="Enviar" type="sudmit">GUARDAR</button>
+    </form>
+  </div>
+</body>
+
+</html>

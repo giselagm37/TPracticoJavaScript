@@ -7,7 +7,7 @@ pase por encima de alguno de ellos el color de fondo será del color de relleno 
 
 
 function cambioColor(color) {
-  //llama a
+  //llama a segun el ID y le cambia el fondo al nuevo contenido
   document.getElementById("cambio").style.backgroundColor=color; 
  
 }

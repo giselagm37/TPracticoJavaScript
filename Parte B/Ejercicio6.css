@@ -36,12 +36,12 @@ div{
     display:inline-block;
     border-radius: 50px;
 }
-
+/*
 .color:nth-child(1){ background-color: red;}
 .color:nth-child(2){ background-color: green;}
 .color:nth-child(3){ background-color: blue;}
 
-/*
+
 .animate-bg:before, .animate-bg:after{
     background-color: gold;
     animation: alternate;*/

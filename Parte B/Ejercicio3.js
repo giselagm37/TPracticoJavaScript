@@ -2,7 +2,7 @@ var patron = /^\D{4,}/;
 var patron_mail = /^@(\.[a-zA-Z]{5,})$/s
 function validar() {
     var nombre = document.getElementById("nombre").values;
-    var edad = document.getElementById("edad").value;
+    var edad = document.getElementById("edad").values;
     var mail = document.getElementById("mail").values;
 let textoError
     if (!patron.test(nombre)) {

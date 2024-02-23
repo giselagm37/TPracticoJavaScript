@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: bisque;
 }
@@ -6,7 +9,13 @@ body{
     margin: 0;
     background-color: cadetblue;
 }
-
+.calculadora{
+    background-color: aqua;
+    color:brown;
+    width: 350px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
 
 .pantalla{
     display: grid;

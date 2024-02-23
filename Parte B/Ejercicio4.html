@@ -15,23 +15,56 @@
 correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
 para cargar la canción (nombre, compositor, duración).
   -->
+
   <div class="contenedor">
+
     <form class="formulario">
+
       <div id="interno">
-        <label for="nombre" id="label">Nombre de Canción</label>
+        <label for="nombre" id="label">Nombre del Album</label>
         <input id="nombre" name="nombre" type="text">
+
       </div>
+
       <div id="interno">
-        <label for="compositor" id="label">Nombre de Compositor</label>
+
+        <label for="compositor" id="label">Nombre de Interprete</label>
         <input id="compositor" name="compositor" type="text">
       </div>
       <div id="interno">
-        <label for="duracion" id="label"> Duración</label>
+
+        <label for="duracion" id="label"> Cantidad de Canciones</label>
         <input type="number" name="duracion" id="duracion">
       </div>
+      <button id="Enviar" type="sudmit">agregar canción</button>
+  </div>
+</form>
 
-      <button id="Enviar" type="sudmit">GUARDAR</button>
-    </form>
+  </div>
+  <div class="contenedor" id="con2">
+
+    <form class="formulario">
+
+      <div id="interno">
+        <label for="nombre" id="label">Nombre </label>
+        <input id="nombre" name="nombre" type="text" required>
+
+      </div>
+
+      <div id="interno">
+
+        <label for="compositor" id="label">compositor</label>
+        <input id="compositor" name="compositor" type="text">
+      </div>
+      <div id="interno">
+
+        <label for="duracion" id="label"> duración</label>
+        <input type="number" name="duracion" id="duracion">
+      </div>
+      <button id="Enviar" type="sudmit">guardar</button>
+  </div>
+</form>
+
   </div>
 </body>
 

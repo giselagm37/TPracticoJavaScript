@@ -1,0 +1,10 @@
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 500px;
+    border: 25px solid rgb(20, 35, 53);
+    border-radius: 50%;
+}

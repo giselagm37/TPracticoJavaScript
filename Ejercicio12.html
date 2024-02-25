@@ -14,11 +14,9 @@ los contenidos de un elemento SELECT de un formulario.
     -->
     <h2>Modificar Elemento Select</h2>
     
-    <label for="selectElement">Selecciona un elemento:</label>
-    <select id="selectElement">
-        <option value="opcion1">Opción 1</option>
-        <option value="opcion2">Opción 2</option>
-        <option value="opcion3">Opción 3</option>
+    <label for="item">Selecciona un elemento:</label>
+    <select id="item">
+       
     </select>
     
     <div>
@@ -28,17 +26,15 @@ los contenidos de un elemento SELECT de un formulario.
     </div>
 
     <div>
-        <label for="elementoExistente">Modificar elemento existente:</label>
+        <label for="elementoExistente">Modificar elemento seleccionado:</label>
         <input type="text" id="elementoExistente">
         <button onclick="modificarElemento()">Modificar</button>
     </div>
-
+        <label id="mensaje"></label>
     <div>
         <label for="elementoAEliminar">Eliminar elemento:</label>
         <select id="elementoAEliminar">
-            <option value="opcion1">Opción 1</option>
-            <option value="opcion2">Opción 2</option>
-            <option value="opcion3">Opción 3</option>
+            
         </select>
         <button onclick="eliminarElemento()">Eliminar</button>
     </div>

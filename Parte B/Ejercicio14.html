@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Ejercicio14.js" defer></script>
+    <link rel="stylesheet" href="Ejercicio14.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- 
+        Realice un formulario que disponga de dos cajas de texto para verificar usuario y
+password. El usuario debe comenzar con una letra mayúscula y tener al menos 3 números
+en cualquier posición. El password debe tener una longitud mínima de 8 caracteres,
+comenzar con un número y terminar con una letra mayúscula seguida de otro número.
+    -->
+    <h2>Verificación de Usuario y Contraseña</h2>
+<form id="loginForm" action="#" onsubmit= "return validar()">
+    <div>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" >
+        <label class="mensaje" id="mensaje"></label>
+    </div>
+    <div>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena"  title=>
+        <label  class="mensaje" id="mensaje2"></label>
+    </div>
+    <button type="pull">Enviar</button>
+</body>
+</html>

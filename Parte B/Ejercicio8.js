@@ -4,13 +4,15 @@ documento (title).*/
 
 
 
-document.body.addEventListener("mousemove", obtenerCoordenadas);
+document.addEventListener('mousemove', function(e){
+  document.title = `X: ${e.clientex},  Y: ${e.cliente}`;
+});
 
   // Función para obtener las coordenadas del ratón
   function obtenerCoordenadas(evento) {
     const x = evento.pageX;
     const y = evento.pageY;
-    document.title = `X: ${x} - Y: ${y}`;
+   
 }
 
 // Asociar la función al evento onMouseMove (movimiento del ratón)

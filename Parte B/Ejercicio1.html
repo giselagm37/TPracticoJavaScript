@@ -12,12 +12,17 @@
     <h4>Realiza una página que muestre un formulario y verifique la entrada de un número que
         esté comprendido entre 1 y 100.</h4>
     <div>
-        <p>Ingrese un numero de 1 a 100</p>
-        <input id="numero" type="number">
-
-        <button type="button" onclick="validar()">Enviar</button>
-    
-        <p id="mensaje"></p>
+        <!--onsubmit devuelve un booleano-->
+        <!--for/name-->
+        <form action="#" onsubmit="return validar()" method="post" name="formulario">
+            <label for="numero">Ingrese un numero de 1 a 100</label>
+            <input id="numero" type="number" name="numero">
+            <!--boton de tipo enviar-->
+            <button type="submit" >Enviar</button>
+        
+            <p id="mensaje"></p>
+        </form>
+        
     </div>
    
 </body>

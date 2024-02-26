@@ -6,40 +6,24 @@ const valoranterior = document.getElementById('anterior');
 const valoractual = document.getElementById('actual');*/
 
 //Trae todos los elemento de esa clase // 
-const pantalla = document.querySelectorAll(".pantalla");
-const botones = document.querySelectorAll(".btn");
+ 
+function numero(valor) {
+    document.getElementById('pantalla').value += valor;
+  }
 
-botones.forEach(boton => {
-    boton.addEventListener("click", () => {
-        const botonApretado = boton.textContent;
-        
+  function borrar() {
+    document.getElementById('pantalla').value = '';
+  }
 
-        if(boton.id === "C") {
-            pantalla.textContent = "0";
-            return;
-        }
-        if (boton.id === "borrar" ) {
-            if (panatalla.textContent.length === 1 || pantalla.textContent === "Error!") {
-                pantalla.textContent = "0";
+  function operacion(operador) {
+    document.getElementById('pantalla').value += operador;
+  }
 
-            } else {
-                pantalla.textContent =pantalla.textContent.slice(0,-1);
-            }
-            return;    
-        }
-        if (boton.id === "igual") {
-            try{
-                pantalla.textContent = eval(panatalla.textContent);
-            } catch {
-                panatalla.textContent = "Error!"
-            }
-            return;
-        }
-        if(pantalla.textContent === "0" || pantalla.textContent === "Error!") {
-           pantalla.textContent = botonApretado;
-        } else {
-            pantalla.textContent += botonApretado;
-        }
-
-    })   
-})
+  function resultado() {
+    try {
+      let resultado = eval(document.getElementById('pantalla').value);
+      document.getElementById('pantalla').value = resultado;
+    } catch (error) {
+      document.getElementById('pantalla').value = 'Error';
+    }
+  }

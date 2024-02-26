@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 9 javascript PARTE B</title>
     <Script src="Ejercicio9.js"></Script>
+    <link rel="stylesheet" href="Ejercicio9.css">
 
 </head>
 <body>
@@ -12,7 +13,46 @@
         través de radio button su respuesta. La página proporcionará la evaluación y las respuestas
         correctas a petición del usuario.
     </h4>
-
+    <img src="frase1.jpg" alt="">
+    <img src="frase2.jpg" alt="">
+    <img src="frase3.jpg" alt="">
+    <form action="" onsubmit="return enviar()">
+           <h1>Prueba de Javascript</h1>
+           <h2>Responda verdadero o Falso</h2>
+           <div>
+              <h3>PREGUNTA 1</h3>
+             <label for="pregunta1"> let se utiliza para declarar variables con ámbito de bloque. ¿Puede ser reasignada.</label> <br>
+             <input type="radio" id="preg1Resp1" name="correcto">Verdadero
+             <input type="radio" id="preg1Resp2">Falso
+           </div>
+           <div>
+            <h3>PREGUNTA 2</h3>
+            <label for="pregunta2"> ¿JavaScript es un lenguaje de programación de alto tipado? </label> <br>
+            <input type="radio" id="preg2Resp1">Verdadero
+            <input type="radio" id="pre2Resp2">Falso
+           </div>
+           <div>
+            <h3>PREGUNTA 3</h3>
+            <label for="pregunta3">El DOM es una representación del documento HTML/XML como una estructura de árbol, donde cada nodo en el árbol representa parte del documento, como elementos, atributos y texto. </label> <br>
+            <input type="radio" id="preg3Resp1">Verdadero
+            <input type="radio" id="pre3Resp2">Falso
+        </div>
+        <button type="button">Enviar</button>
+        <input type="submit" value="Enviar">
+    </form>
+    <div> 
+        <p> PREGUNTA 1 RESPUESTA:  VERDADERO <br>
+        let: Se utiliza para declarar variables con ámbito de bloque. Puede ser reasignada.
+        const: Se utiliza para declarar constantes con ámbito de bloque. No puede ser reasignada después de la inicialización, pero el contenido de un objeto o matriz declarado con const puede ser modificado.
+        var: Se utiliza para declarar variables con ámbito de función. Es más antigua y tiene comportamientos diferentes en comparación con let y const. No tiene ámbito de bloque y puede ser reasignada.
+        Entender estas diferencias es esencial para escribir código moderno y mantener un buen control sobre el alcance y la mutabilidad de las variables en JavaScript.
+    </p> 
+    <p> PREGUNTA 2 RESPUESTA: FALSO <br>
+        JavaScript es conocido por ser un lenguaje de programación de tipado débil o dinámico. Esto significa que las variables en JavaScript no están fuertemente ligadas a un tipo de dato específico y pueden cambiar de tipo durante la ejecución del programa.
+    </p>
+    <p> PREGUNTA 3 RESPUESTA: VERDADERO <br>
+        El DOM es una representación del documento HTML/XML como una estructura de árbol, donde cada nodo en el árbol representa parte del documento, como elementos, atributos y texto.
+    </p></div>
    
 </body>
 </html>

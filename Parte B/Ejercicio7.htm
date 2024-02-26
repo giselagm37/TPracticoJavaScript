@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 7 javascript PARTE B</title>
+    <link rel="stylesheet" href="Ejercicio7.css">
     <script src="Ejercicio7.js"></script>
 </head>
+
 <body>
     <h4>Realiza una página que muestre un formulario para la conversión de Pesos a Dólares y
         viceversa. Los campos del formulario han de poder ser limpiados.
     </h4>
+
+    <div class="contenedor" id="contenedor">
+        <h1>Convertidor</h1>
+        <h3> Valor del dolar : $ 850</h3>
+        <div>
+            <label class="letra" for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad">
+        </div>
+        <div >
+            <label class="letra" for="conversion">Seleccione el tipo de conversión:</label>
+            <select id="conversion">
+                <option value="dolares">Dólares a Pesos</option>
+                <option value="pesos">Pesos a Dólares</option>
+            </select></div>
+        
     
+        <button class="resaltar" onclick="convertir()">Convertir</button>
+        <button class="resaltar" onclick="borrar()">Borrar</button>
+        <p class="letra" id="resultado"></p>
+      
+
+    </div>
+
 </body>
+
 </html>
+

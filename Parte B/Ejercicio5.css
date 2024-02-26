@@ -1,10 +1,14 @@
 
 .contenedor{
     width: 250px;
-    height: 350px;
+    height: 400px;
     background-color: cadetblue;
     border-radius: 1px;
     padding: 5px;
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%)  
 }
 .interno{
     width: 250px;
@@ -15,4 +19,8 @@ img{
 }
 input{
     float: left;
+}
+body{
+    background-color:crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

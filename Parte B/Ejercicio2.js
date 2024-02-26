@@ -9,7 +9,7 @@ function validar(){
     let sexo = document.getElementById('sexo').value;
     let FechaNacimiento= document.getElementById('fechaNacimiento').value;
     let mail= document.getElementById('mail').value;
-    let text;
+    
     console.log("bien")
     if (nombre ==='' || apellido ==='' || sexo ==='' || FechaNacimiento ==='' || mail ==='') {
         alert('Por favor complete todos los campos')

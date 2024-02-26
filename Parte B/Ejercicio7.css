@@ -1,0 +1,29 @@
+.contenedor{
+    background-image: url(dolares.jpg);
+    background-size: cover;   /*centra la imagen*/
+    background-position: center;
+    height: 300px;
+    width: 500px;
+   
+    position:absolute;  /*centra*/
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+   padding: 20px;
+ 
+}
+.letra{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+div{
+    margin-bottom: 10px;
+}   
+.resaltar{
+    background-color: chartreuse;
+    font-size: larger;
+} 
+h3{
+    background-color: red;
+}

@@ -1,0 +1,17 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+form{
+    height: 500px;
+    width: 580px;
+    background-color: chartreuse;
+    padding: 15px;
+}
+body{
+    margin-left: 50px;
+}
+input{
+   
+    margin-top: 10px;
+}

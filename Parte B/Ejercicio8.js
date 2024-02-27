@@ -1,19 +1,27 @@
 /* EJERCICIO 8 //
-Realiza una página que capture las coordenadas del ratón y las muestre en el título del
+/*Realiza una página que capture las coordenadas del ratón y las muestre en el título del
 documento (title).*/
-
-
-
-document.addEventListener('mousemove', function(e){
-  document.title = `X: ${e.clientex},  Y: ${e.cliente}`;
+//propiedad/atributo de mousemove 
+document.addEventListener('mousemove', function(e) {
+  document.getElementById('coordx').value = e.clientX;
+  document.getElementById('coordy').value = e.clientY;
 });
 
-  // Función para obtener las coordenadas del ratón
-  function obtenerCoordenadas(evento) {
-    const x = evento.pageX;
-    const y = evento.pageY;
-   
-}
+/* <div id="myDIV"></div>
 
-// Asociar la función al evento onMouseMove (movimiento del ratón)
-document.addEventListener("mousemove", obtenerCoordenadas);
+<p>Mouse over the rectangle above, and get the coordinates of your mouse pointer.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myDIV").addEventListener("mousemove", function(event) {
+  myFunction(event);
+});
+
+function myFunction(e) {
+  let x = e.clientX;
+  let y = e.clientY;
+  let coor = "Coordinates: (" + x + "," + y + ")";
+  document.getElementById("demo").innerHTML = coor;
+}
+</script>*/

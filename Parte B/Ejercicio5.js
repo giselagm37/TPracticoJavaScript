@@ -14,6 +14,8 @@ console.log(prueba);
 console.log(pru);
 console.log(caja);  */
 console.log("probando")
+
+var correo = /^@(\.[a-zA-Z]{5,})$/s
 function validar(){
 const nombre = document.getElementById("nombre").value
 const apellido = document.getElementById("apellido").value
@@ -29,4 +31,5 @@ if (nombre ==='' || apellido ==='' || correo ==='' || telefono ==='' || telefono
     alert(' formulario completo')
     return false
 }
+
 }

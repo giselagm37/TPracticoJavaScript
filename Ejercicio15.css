@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #bd1111;
+    border: 2px solid #c51e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.container2 {
+    background-color: #c24343;
+}
+
+.container3 {
+    background-color: #0915af;
+}

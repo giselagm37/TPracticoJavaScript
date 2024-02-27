@@ -1,0 +1,32 @@
+
+.estilo1 {
+    color: blue;
+}
+
+.estilo2 {
+    color: red;
+}
+
+.contenedor{
+    border: 1px solid #a5d4e2;
+    border-radius: 8px;
+    background-color: #aad1d8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6d3d3;
+    flex-direction: column; 
+}
+h2{
+    justify-content: center;
+    display: flex;
+}

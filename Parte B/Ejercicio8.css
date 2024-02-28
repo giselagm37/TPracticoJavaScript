@@ -1,0 +1,25 @@
+body {
+    background-image: url(otoño.jpg);
+    background-size: cover;   /*centra la imagen*/
+    background-position: center;
+    height: 70vh;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: yellowgreen;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  form{
+    height: 120px;
+    width: 120px;
+    border: 5px solid black;
+    padding: 10px;
+  }

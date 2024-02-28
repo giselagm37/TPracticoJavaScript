@@ -11,14 +11,15 @@ document.getElementById('Enviar').addEventListener('click', function (){
     let nombre = miformulario.nombre.value;
     let compositor = miformulario.compositor.value;
     let duracion = miformulario.duracion.value;
- 
+    
+    
     var contador = document.getElementById("cantidadcanciones")
     var contendor = document.getElementById('contenedorCanciones');
-    
+    contendor.style.display="flex"
     var paragraph = document.createElement('p');
-  paragraph.textContent = 'Nombre: ' + nombre +
+  paragraph.innerText = 'Nombre: ' + nombre +
     ', Compositor: ' + compositor +
-    ', Duración: ' + duracion; 
+    ', Duración: ' + duracion; "<br>"
   
   
   contendor.appendChild(paragraph);

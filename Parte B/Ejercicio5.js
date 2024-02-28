@@ -14,9 +14,13 @@ console.log(prueba);
 console.log(pru);
 console.log(caja);  */
 console.log("probando")
-const nombreApelli = /\w*/;
-const telefonopatron = /^\d{10}$/; // Asumiendo que el teléfono tiene 10 dígitos
-const correopatron = /^@(\.[a-zA-Z]{5,})$/;
+
+var correo = /^@(\.[a-zA-Z]{5,})$/s
+function validar(){
+const nombre = document.getElementById("nombre").value
+const apellido = document.getElementById("apellido").value
+const telefono = document.getElementById("telefono").value
+const correo = document.getElementById("correo").value
 
 if (
     nombre === '' ||
@@ -30,8 +34,9 @@ if (
 ) {
     alert('Debe completar todos los campos correctamente');
     return false;
-} else {
-    alert('Formulario completo');
-    return true; // Cambiado a true para permitir el envío del formulario cuando es válido
+    }else {
+    alert(' formulario completo')
+    return false
 }
+
 }

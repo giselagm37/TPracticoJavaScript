@@ -14,19 +14,24 @@ console.log(prueba);
 console.log(pru);
 console.log(caja);  */
 console.log("probando")
-function validar(){
-const nombre = document.getElementById("nombre").value
-const apellido = document.getElementById("apellido").value
-const telefono = document.getElementById("telefono").value
-const correo = document.getElementById("correo").value
+const nombreApelli = /\w*/;
+const telefonopatron = /^\d{10}$/; // Asumiendo que el teléfono tiene 10 dígitos
+const correopatron = /^@(\.[a-zA-Z]{5,})$/;
 
-console.log(nombre, apellido, telefono, correo)
-
-if (nombre ==='' || apellido ==='' || correo ==='' || telefono ==='' || telefono <= 3){
-    alert('debe completar todos los campos')
+if (
+    nombre === '' ||
+    apellido === '' ||
+    correo === '' ||
+    telefono === '' ||
+    !nombreApelli.test(nombre) ||
+    !nombreApelli.test(apellido) ||
+    !telefonopatron.test(telefono) ||
+    !correopatron.test(correo)
+) {
+    alert('Debe completar todos los campos correctamente');
     return false;
-    }else {
-    alert(' formulario completo')
-    return false
+} else {
+    alert('Formulario completo');
+    return true; // Cambiado a true para permitir el envío del formulario cuando es válido
 }
 }

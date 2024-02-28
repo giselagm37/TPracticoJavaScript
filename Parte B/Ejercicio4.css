@@ -4,7 +4,7 @@ body{
     background-color: azure;
     height: 100vh;
     align-items: center;
-    background: lightblue url(pxfuel.jpg) no-repeat center
+    
     
 }
 .contenedor {
@@ -17,6 +17,7 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
     backdrop-filter: blur(8px);
+    flex-wrap: wrap;
 }
 #interno{
     margin: 20px;
@@ -26,6 +27,13 @@ input{
     margin-left: 10px;
 }
 #con2{
-    display: flex;
+    display: none;
     align-content: space-around;
+}
+#contenedorCanciones{
+    flex-wrap: wrap;
+   
+}
+p{
+    border: 5px solid gainsboro;
 }

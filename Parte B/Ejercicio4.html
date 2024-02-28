@@ -5,8 +5,9 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <title>eje4</title>
-  <script src="ejercicio4.js"></script>
+  <script src="Ejercicio4.js" defer></script>
   <link rel="stylesheet" href="Ejercicio4.css">
+  
 </head>
 
 <body>
@@ -15,14 +16,18 @@
 correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
 para cargar la canción (nombre, compositor, duración).
   -->
+<script>
+  
+
+</script>
 
   <div class="contenedor">
 
-    <form class="formulario">
+    <form class="formulario1" name="formulario1">
 
       <div id="interno">
-        <label for="nombre" id="label">Nombre del Album</label>
-        <input id="nombre" name="nombre" type="text">
+        <label for="nombresd" id="label">Nombre del Album</label>
+        <input id="nombresd" name="nombresd" type="text">
 
       </div>
 
@@ -34,20 +39,20 @@ para cargar la canción (nombre, compositor, duración).
       <div id="interno">
 
         <label for="duracion" id="label"> Cantidad de Canciones</label>
-        <input type="number" name="duracion" id="duracion">
+        <input type="number" name="cantidadcanciones" id="duracion">
       </div>
-      <button id="Enviar" type="sudmit">agregar canción</button>
+      <button id="agregarCancion" type="button" onclick="mostrar()">agregar canción</button>
   </div>
 </form>
 
   </div>
   <div class="contenedor" id="con2">
 
-    <form class="formulario">
+    <form class="formulario2" name="formulario2" method="post">
 
       <div id="interno">
         <label for="nombre" id="label">Nombre </label>
-        <input id="nombre" name="nombre" type="text" required>
+        <input id="nombre" name="nombre" type="text" >
 
       </div>
 
@@ -61,7 +66,10 @@ para cargar la canción (nombre, compositor, duración).
         <label for="duracion" id="label"> duración</label>
         <input type="number" name="duracion" id="duracion">
       </div>
-      <button id="Enviar" type="sudmit">guardar</button>
+      <button id="Enviar" type="button">guardar</button>
+  </div>
+  <div id="contenedorCanciones" class="contenedor">
+    
   </div>
 </form>
 

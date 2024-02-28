@@ -1,4 +1,25 @@
-/* EJERCICIO 4//
-Realice un formulario para la carga de datos de un CD. Realice las validaciones
-correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
-para cargar la canción (nombre, compositor, duración).*/
+
+console.log("dasd");
+function mostrar(){
+    var ingrcancion =document.getElementById("con2")
+    ingrcancion.style.display = "flex";
+    }
+
+document.getElementById('Enviar').addEventListener('click', function (){
+    let miformulario = document.forms["formulario2"];
+    
+    let nombre = miformulario.nombre.value;
+    let compositor = miformulario.compositor.value;
+    let duracion = miformulario.duracion.value;
+ 
+    var contador = document.getElementById("cantidadcanciones")
+    var contendor = document.getElementById('contenedorCanciones');
+    
+    var paragraph = document.createElement('p');
+  paragraph.textContent = 'Nombre: ' + nombre +
+    ', Compositor: ' + compositor +
+    ', Duración: ' + duracion; 
+  
+  
+  contendor.appendChild(paragraph);
+})

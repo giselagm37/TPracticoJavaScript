@@ -1,0 +1,39 @@
+*{
+    font-family: "Montserrat", sans-serif; 
+}
+.contenedor{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    width: auto;
+}
+
+.seccionIA{
+    height: 1000px;
+    width: auto;
+}
+.seccionIA1{
+    height: 500px;
+}
+.seccionIA-Interno{
+  width: 100%;
+}
+.seccionIA-Texto{
+    width: 50%;
+    float: left;
+}
+.seccionAI1-Img{
+    width: 50%;
+    float: right;
+}
+.seccionAI1 h1{
+    font-weight: bold;
+    
+}
+
+
+
+.SeccionAI2{
+    
+    float: left;
+}

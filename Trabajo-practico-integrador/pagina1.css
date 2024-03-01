@@ -1,0 +1,53 @@
+*{
+    font-family: "Montserrat", sans-serif; 
+}
+.contenedor{
+    background-color: whitesmoke ;
+    font-family: "Montserrat", sans-serif;
+    height: auto;
+    width: auto;
+}
+/* SECCION IA*/
+.seccionIA{   /* ocupa las dos*/
+    height: 40vh;
+}
+.seccionIA1{        /* INTERNO*/
+    height: 20vh;  
+}
+.seccionIA1-Interno{
+  
+  height: 20vh;
+}
+.seccionIA1-Texto{
+    width: 60%;
+    float: left;
+    font-size: 30px;
+}
+.seccionIA1-Img{
+    width: 40%;
+    float: right;
+}
+.seccionIA h1{
+    font-weight: bold;
+    font-size: 40px;    
+}
+.seccionIA2{   /**/
+    height: 20vh;
+    margin: 10px;
+}
+.seccionIA2-Interno{
+    height: 20vh;
+}
+.seccionIA2-Texto{
+    width: 70%;
+    float: left;
+}
+.seccionIA2-Img{
+    width: 30%;
+    float: right;
+}
+.cienciaDatos{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px
+}

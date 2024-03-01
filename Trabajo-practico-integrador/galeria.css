@@ -1,0 +1,138 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-container {
+  margin: 10px;
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 200px; /* Ajusta la altura deseada */
+}
+.image-container p {
+  margin: 0;
+}
+#carousel img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    font-size:60px;
+    
+}
+
+.subtitulo{
+    font-size: 30px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding: 5vh;
+}
+
+header {
+  background-color: #111;
+  padding: 10px;
+}
+
+
+.icono{
+    position: relative;
+    float:left;
+}
+
+.main {
+  background-image: url("img/fondologin3.jpg") ;
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contenido {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #242323;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.logo img {
+  width: 50px;
+}
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: rgb(181, 45, 45);
+    text-decoration: none;
+  }
+  
+  .login {
+    background-color: #ff9900;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login:hover {
+    background-color: #ffcc00;
+  }
+  .activo {
+    background-color: rgb(84, 84, 170);
+  }

@@ -5,18 +5,22 @@ body {
   background-color: #222;
   color: #fff;
 }
+
 header {
   background-color: #111;
   padding: 10px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo img {
   width: 50px;
 }
+
 .menu ul {
   list-style: none;
   padding: 0;
@@ -36,6 +40,7 @@ nav {
   color: rgb(181, 45, 45);
   text-decoration: none;
 }
+
 .login {
   background-color: #ff9900;
   color: #333;
@@ -47,6 +52,7 @@ nav {
 .login:hover {
   background-color: #ffcc00;
 }
+
 .cont-img {
   background: url("img/fondologin3.jpg") center center fixed;
   background-size: cover;
@@ -55,24 +61,29 @@ nav {
   align-items: center;
   height: 100vh;
 }
+
 .contenedor {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 60px;
   border-radius: 10px;
   text-align: center;
 }
+
 h1 {
   margin-bottom: 20px;
 }
+
 .contenedor-interno {
   margin-bottom: 20px;
 }
+
 .contenedor-interno label {
   display: block;
   margin-bottom: 5px;
   font-size: 18px;
 }
-#usuario,#contrasena {
+
+#usuario, #contrasena {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -81,6 +92,7 @@ h1 {
   background-color: #333;
   color: #fff;
 }
+
 button {
   width: 100%;
   padding: 10px;
@@ -95,6 +107,7 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
 footer {
   text-align: center;
   padding: 10px;
@@ -104,47 +117,4 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-}
-
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.menu ul li:last-child {
-  margin-right: 0;
-}
-
-.menu ul li a {
-  color: rgb(181, 45, 45);
-  text-decoration: none;
-}
-
-.login {
-  background-color: #ff9900;
-  color: #333;
-  padding: 8px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.login:hover {
-  background-color: #ffcc00;
 }

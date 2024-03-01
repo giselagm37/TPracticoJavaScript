@@ -1,38 +1,151 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+header {
+  background-color: #111;
+  padding: 10px;
+}
+nav {
   display: flex;
-  flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('fondologin4.png');
-    background-size: cover; /* Para que la imagen cubra todo el div */
-    background-position: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu ul li:last-child {
+  margin-right: 0;
+}
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.login {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login:hover {
+  background-color: #0056b3;
+}
+.cont-img {
+  background: url("img/fondologin3.jpg") center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .contenedor {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    width: 500px; /* Ancho del div */
-    height: 300px; /* Alto del div */
-  background: transparent;
-  backdrop-filter: blur(2px);
-    border: 1px solid #fff; 
-    border-radius: 20%;
-    color: rgb(0, 0, 0); 
-  }
-  .contenedor-interno{
-    margin: 25px;
-    align-items: center;
-    align-content:space-around;
-  }
-  h2{
-    color: rgb(0, 0, 0);
-    position: relative;
-    padding-left: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.contenedor-interno {
+  margin-bottom: 20px;
+}
+.contenedor-interno label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+#usuario,#contrasena {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-  }
-  #footer{
-    width: 1000px;
-    height: 40px;
-    background-color: aqua;
-  }
+button:hover {
+  background-color: #0056b3;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  color: rgb(181, 45, 45);
+  text-decoration: none;
+}
+
+.login {
+  background-color: #ff9900;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #ffcc00;
+}

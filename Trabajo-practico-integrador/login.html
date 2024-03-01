@@ -12,34 +12,38 @@
     </style>
 </head>
 <body>
-    <header> 
-        <p>
-            &nbsp;
-            <img src="logo.png" alt="">
-            &nbsp; CODER &nbsp; CONTACTANOS &nbsp; NOSOTROS &nbsp; LOGIN
-        </p>
-    </header>
-    <div class="contenedor">
-        
-    <form name="loginForm" action="#"   onsubmit="return validar()" method="post">
-        <h2>Login</h2>
-        <div class="contenedor-interno">
-            <label for="usuario">Usuario:</label>
-            <input type="text" id="usuario" name="usuario">
-            <label class="mensaje" id="mensaje"></label>
+<header>
+    <nav>
+        <div class="logo"><img src="img/icono.png" alt=""></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">CONTACTANOS</a></li>
+                <li><a href="pagina1.htm">NOSOTROS</a></li>
+            </ul>
         </div>
-        <div class="contenedor-interno">
-            <label for="contrasena">Contraseña:</label>
-            <input type="text" id="contrasena" name="contrasena">
-            <label class="mensaje" id="mensaje2"></label>
-        </div>
-        <button type="submit">Enviar</button>
-    </form>
+        <!--sacar despues de pasarlo a guido-->
+        <div class="login">LOGIN</div>
+    </nav>
+</header>   
+<div class="cont-img">
+<div class="contenedor">
+    <h1>Login</h1>
+    <div class="contenedor-interno">
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+    </div>
+    <div class="contenedor-interno">
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+    </div>
+    <div class="contenedor-interno">
+      <button type="submit">Entrar</button>
+    </div>
+  </div>
 </div>
     <footer> 
-<div id="footer">
-
-</div>
+        <p>&copy; 2024 Empresa de Programación</p>
     </footer>
 </body>
 </html>

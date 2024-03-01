@@ -40,7 +40,9 @@ nav {
   color: rgb(181, 45, 45);
   text-decoration: none;
 }
-
+.menu ul li a:hover{
+  color:  #ffcc00;
+}
 .login {
   background-color: #ff9900;
   color: #333;

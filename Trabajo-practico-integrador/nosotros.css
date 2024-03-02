@@ -1,14 +1,17 @@
 *{
     font-family: "Montserrat", sans-serif; 
+    margin: 15px;
 }
 body{
     height: 215vh;
+    margin: 15px;
 }
 .contenedor{
     background-color: whitesmoke;
     font-family: "Montserrat", sans-serif;
     height: 200vh;
     padding: 10px;
+    width: auto;
 }
 /* SECCION IA*/
 .seccionIA{   /* ocupa las dos*/
@@ -32,7 +35,6 @@ body{
 }
 .seccionIA1-Img{
     width: 50%;
- 
     float: right;
 }
 .seccionIA h1{

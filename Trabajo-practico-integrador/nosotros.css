@@ -2,7 +2,7 @@
     font-family: "Montserrat", sans-serif; 
 }
 body{
-    height: 300vh;
+    height: 215vh;
 }
 .contenedor{
     background-color: whitesmoke;
@@ -12,12 +12,13 @@ body{
 }
 /* SECCION IA*/
 .seccionIA{   /* ocupa las dos*/
-    height: 50vh;
+    height: 100vh;
     background-color: whitesmoke;
     padding: 10px;
-    /*.h3{
-        font-size: larger;
-    }*/
+}
+.seccionIA1{
+    height: 50vh;
+    background-color: whitesmoke;
 }
 .seccionIA1-Interno{
   height: 40vh;
@@ -31,6 +32,7 @@ body{
 }
 .seccionIA1-Img{
     width: 50%;
+ 
     float: right;
 }
 .seccionIA h1{
@@ -49,34 +51,33 @@ body{
    
 }
 .seccionIA2-Texto{
-    width: 80%;
+    width: 60%;
     float: right;
     text-align: left;
     font-size: 25px;
 }
 .seccionIA2-Img{
-    width: 20%;
+    width: 40%;
     float: left;   
 }
-.cienciaDatos{ /**/
-    height: 50vh;
+.cienciaDatos{ /* CIENCIA DE DATOS*/
+    height: 85vh;
     background-color: rgb(144, 204, 238);
-    border-radius: 15px;
-}
-.cienciaDatos1{
-    
+    padding: 10px;
+    h3{
+        padding: 10px;
+    }
 }
 .cienciaDatos1-Interno{
-    height: 40vh;
-    padding: 50px;
+    height: 60vh; 
 }
 .cienciaDatos1-Texto{
-    width: 80%;
+    width: 50%;
     float: right;
     text-align: left;
     font-size: 25px;
 }
 .cienciaDatos1-Img{
-    width: 20%;
+    width: 50%;
     float: right;   
 }

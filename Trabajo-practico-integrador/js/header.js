@@ -53,7 +53,7 @@
  var loginLink = document.createElement('a');
  loginLink.href = 'login.html';
  loginLink.textContent = 'LOGIN';
-
+ loginLink.style.textDecoration = 'none';
  // Agregar el enlace al div.login
  loginDiv.appendChild(loginLink);
 

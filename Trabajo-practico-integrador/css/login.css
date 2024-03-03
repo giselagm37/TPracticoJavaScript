@@ -1,5 +1,5 @@
 .cont-img {
-  margin-top: 60px;
+  
   height: calc(100vh - 60px); /* Altura de la ventana menos el margen superior */
   background-image: url(/Trabajo-practico-integrador/img/fondologin3.jpg);
   background-position: center;

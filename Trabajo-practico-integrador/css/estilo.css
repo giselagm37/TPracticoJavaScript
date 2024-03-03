@@ -1,0 +1,84 @@
+/* Estilos para el título h1 */
+h1 {
+    font-size: 40px;
+    color: #ffffff; /* Color del texto */
+    text-shadow: 1px 1px 25px greenyellow, 1px 5px 50px black;
+}
+
+/* Estilos para el subtítulo */
+.subtitulo {
+    font-size: 30px;
+    color: #ffffff; /* Color del texto */
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+/* Estilos para el div principal */
+#main {
+    margin-top: 60px;
+    height: 100vh;
+    background-image: url(/Trabajo-practico-integrador/img/fondologin3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el contenido */
+.contenido {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilos para el título dentro del contenido */
+.contenido h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el subtítulo dentro del contenido */
+.contenido .subtitulo {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilos para las secciones mid1 y mid2 */
+.mid1,
+.mid2 {
+    background: #d8bab2; /* Color de fondo */
+    padding: 50px 0;
+}
+
+/* Estilos para los contenidos 2, 3, 4, 5 y 6 */
+.contenido2,
+.contenido3,
+.contenido4,
+.contenido5,
+.contenido6 {
+    padding: 20px;
+}
+
+/* Estilos para la sección mid2 */
+section.mid2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Estilos para los divs c2, c3, c4, c5 y c6 */
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+    flex: 1;
+    margin: 10px;
+    max-width: 400px;
+}
+
+/* Estilos para las imágenes dentro de los divs */
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

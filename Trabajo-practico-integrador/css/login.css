@@ -1,0 +1,60 @@
+.cont-img {
+  margin-top: 60px;
+  height: calc(100vh - 60px); /* Altura de la ventana menos el margen superior */
+  background-image: url(/Trabajo-practico-integrador/img/fondologin3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  padding-bottom: 60px;
+}
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.contenedor {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.contenedor-interno {
+  margin-bottom: 20px;
+}
+
+.contenedor-interno label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#usuario, #contrasena {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+

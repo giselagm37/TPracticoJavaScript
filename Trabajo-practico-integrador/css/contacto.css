@@ -36,10 +36,9 @@ body {
     font-size: 18px;
 }
 
-.contenedor-interno input[type="text"],
-.contenedor-interno input[type="email"],
+.contenedor-interno input,
 .contenedor-interno textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;

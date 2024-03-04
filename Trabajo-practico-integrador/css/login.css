@@ -1,18 +1,18 @@
 .cont-img {
-  
-  height: calc(100vh - 60px); /* Altura de la ventana menos el margen superior */
-  background-image: url(/Trabajo-practico-integrador/img/fondologin3.jpg);
+  background-image: url('/img/fondologin3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la ventana del navegador */
+  width: 100vw; /* Ocupa toda la anchura de la ventana del navegador */
   padding-bottom: 60px;
 }
-
 /* Estilos para el contenedor del formulario de inicio de sesión */
 .contenedor {
+  margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 10px;
@@ -20,21 +20,24 @@
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px red;
 }
 
 .contenedor-interno {
   margin-bottom: 20px;
 }
 
-.contenedor-interno label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 18px;
+label {
+  display: inline;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-#usuario, #contrasena {
-  width: 100%;
+input {
+  width: 90%;
   padding: 10px;
   margin-bottom: 10px;
   border: none;
@@ -42,19 +45,26 @@ h1 {
   background-color: #333;
   color: #fff;
 }
+.botones {
+  display: flex;
+  justify-content: space-between;
+  
+}
 
-button {
-  width: 100%;
-  padding: 10px;
-  border: none;
+
+
+.boton-enlace {
+  display: block;
+  padding: 20px;
   border-radius: 5px;
   background-color: #007bff;
   color: #fff;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
   font-size: 16px;
 }
 
-button:hover {
+.boton-enlace:hover {
   background-color: #0056b3;
 }
-

@@ -1,13 +1,20 @@
 
 body {
-    background-color: #dcdedf;
-    font-family: "Montserrat", sans-serif;
+    background-color: #202122;
+    font-family: "Montserrat", sans-serif ;
 }
 
 
 h1 {
     font-size: 60px;
-  
+  }
+
+  h4{
+    font-size: 34px;
+  }
+
+  h2{
+    font-size: 34px;
   }
 
 
@@ -82,13 +89,22 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    padding: 20px;
+    
 }
 
 .main{
     background-image: url("/img/img3.jpg");
+    padding: 150px;
 }
 
+.mid1{
+    padding: 50px;
+}
+
+.mid3{
+    padding: 50px;
+    margin-bottom: 30px;
+}
 .contenido {
     text-align: center;
     padding: 20px;
@@ -122,24 +138,39 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+li.lista1 p{
+    font-size: 24px;
+}
 
-
-
-
-.contenido7 .p{
-    
+div.contenido7{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+div.contenido7 p{
+    font-size: 24px;
+}
+div.contenido7 h2{
+    font-size: 34px;
 }
 
 
-.grid-item2{
+.lista1{
     list-style: none;
+
 }
-.grid-item2 .h4{
+.lista1 .h4{
     margin-bottom: 20px;
 }
 
-.grid-item2 .sub-header{
+.lista1 .sub-header{
     font: 20px;
+}
+
+.lista1 p h4{
+    font-size: 20vw;
 }
 
 .grid-wrapper {

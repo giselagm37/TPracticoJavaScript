@@ -10,6 +10,7 @@
   <link rel="shortcut icon" href="img/iconocodear.png">
   <script src="js/header.js" defer></script>
   <script src="js/footer.js" defer></script>
+  <script src="js/login.js" defer></script>
   <title>Login</title>
   <style>
 
@@ -22,8 +23,9 @@
     <div class="contenedor">
       <h1>Login</h1>
       <div class="contenedor-interno">
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+        <form action="#" onsubmit="return validar">
+          <label for="usuario">Usuario:</label>
+          <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
       </div>
       <div class="contenedor-interno">
         <label for="contrasena">Contraseña:</label>
@@ -36,9 +38,10 @@
         <div class="contenedor-interno">
           <a href="crearUsuario.html" class="boton-enlace">Crear Usuario</a>
         </div>
-      </div>
+        </form>
       </div>
     </div>
+  </div>
   </div>
 
 </body>

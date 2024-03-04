@@ -16,8 +16,8 @@ menuDiv.className = 'menu';
 var menuList = document.createElement('ul');
 
 // Crear los elementos de la lista y añadirlos al ul
-var linkImgs= ["img/facebook.png","img/instagram.png","",""]
-var menuItems = ['', '', 'LINKEDIN', 'WHATSAPP'];
+var linkImgs= ["img/facebook.png","img/instagram.png","img/linkedin.png","img/whatsapp.png"]
+var menuItems = ['', '', '', ''];
 var menuLinks = ['https://www.facebook.com/profile.php?id=61557171952021&locale=es_LA','#', '#', '#'];
 
 for (var i = 0; i < menuItems.length; i++) {

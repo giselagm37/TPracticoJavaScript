@@ -51,6 +51,7 @@ body {
     padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 25px;
   }
   
   .login:hover {
@@ -68,6 +69,7 @@ header, footer {
 
   }
   footer {
+    position: relative;
    display: flex;
    justify-content: space-between;
     bottom: 0;

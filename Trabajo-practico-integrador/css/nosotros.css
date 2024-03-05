@@ -9,24 +9,23 @@ body{
 .ia{   /* ocupa las dos*/
     height: 100vh;
     padding: 10px;
-  
-    h3{
+}  
+.ia h3{
         position: absolute;
         padding-top: 100px; /* Ajusta el valor según sea necesario */
     }
-}
 .ia1{
     height: 30vh;
     width: 100%;
     margin-top: 200px;
     margin-left: 50px;
     margin-right: 50px;
-
-    h1{
+}
+.ia1 h1{
         font-weight: bold;
         font-size: 45px; 
     }
-}
+
 .ia1-Interno{
     width: 80%;
     display: flex;
@@ -50,12 +49,13 @@ body{
     margin-left: 250px;
     background-color: white;
     border-radius: 30px;
+}
   
-    h2{
+.ia2 h2{
         font-weight: bold;
         font-size: 40px; 
     }
-}
+
 .ia2-Interno{
     display: flex;
 }
@@ -79,19 +79,20 @@ body{
     padding-top: 50px;
     width: 90%;
     margin-top: 170px;
-    h3{
-        padding-top: 10px;
-        font-size: 20px; 
-        position: absolute;
-    }
-    h2{
+}
+.cd   h4{
+    font-size: 30px;
+}  
+.cd h2{
         padding: 40px;
     }
-    h4{
-        font-size: 30px;
-    }
-}
+  
 
+.cd h3{
+    padding-top: 10px;
+    font-size: 20px; 
+    position: absolute;
+}
 .cd1-Interno{
     height: 100%;
     display: flex;
@@ -140,9 +141,22 @@ th,td{
     font-weight: bold;
 }
 .ci{
-    background-color: whitesmoke;
-    h3{
-        color: black;
-        padding: 30px;
-    }
+    background: linear-gradient(to right, rgb(123, 5, 128), rgb(17, 3, 16));
+    display: flex;
+    flex-direction: column;
+   
 }
+.ci h3{
+    color: black;
+    padding: 30px;
+}
+.cliente {
+    display: flex;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+

@@ -10,26 +10,30 @@
     <link rel="stylesheet" href="css/general.css">
     <script src="js/header.js" defer></script>
     <script src="js/footer.js" defer></script>
+    <script src="js/contacto.js" defer></script>
 </head>
 <body>
     <header id="header"></header>
     <div class="cont-img">
         <div class="contenedor">
             <h1>Contacto</h1>
-            <div class="contenedor-interno">
-                <form action="#" method="post">
+            <div class="contenedor-interno" >
+                
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nombre" name="nombre">
                     
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email">
                     
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
                     
-                    <button type="submit">Enviar Mensaje</button>
-                </form>
+                    <button type="button" onclick="validacion()">Enviar Mensaje</button>
+                    
             </div>
+            <p id="texErrorNombre" class="error"></p>
+            <p id="texErrorEmail" class="error"></p>
+            <p id="texErrorMensaje" class="error"></p>
         </div>
     </div>
 </body>

@@ -95,6 +95,7 @@ header {
 .main{
     background-image: url("/img/img3.jpg");
     padding: 150px;
+    color: #000000;
 }
 
 .mid1{
@@ -159,7 +160,9 @@ div.contenido7 h2{
 
 .lista1{
     list-style: none;
-
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
 }
 .lista1 .h4{
     margin-bottom: 20px;
@@ -173,13 +176,13 @@ div.contenido7 h2{
     font-size: 20vw;
 }
 
-.grid-wrapper {
+.listas {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
 }
 
-.grid-item {
+.lista2 {
     width: calc(50% - 20px); /* Ancho del item, ajustar según tus necesidades */
     margin: 10px;
     background-color: #272727; /* Color de fondo del item */
@@ -188,30 +191,30 @@ div.contenido7 h2{
     list-style: none;
 }
 
-.grid-item .header {
+.lista2 .header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.grid-item .header .icon {
+.lista2 .header .icon {
     margin-right: 10px;
 }
 
-.grid-item h4 {
+.lista2 h4 {
     font-size: 1.25rem;
     margin: 0;
 }
 
-.grid-item .sub-header {
+.lista2 .sub-header {
     margin-bottom: 10px;
 }
 
-.grid-item .cta {
+.lista2 .cta {
     text-align: center;
 }
 
-.grid-item .cta a {
+.lista2 .cta a {
     background-color: #ff9900; /* Color de fondo del botón */
     color: #333; /* Color del texto del botón */
     padding: 8px 15px;
@@ -219,6 +222,13 @@ div.contenido7 h2{
     text-decoration: none;
 }
 
-.grid-item .cta a:hover {
+.lista2 .cta a:hover {
     background-color: #ffcc00; /* Color de fondo del botón al pasar el mouse */
+}
+
+ul.listas3{
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }

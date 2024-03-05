@@ -23,29 +23,26 @@
     <div class="contenedor">
       <h1>Login</h1>
       <div class="contenedor-interno">
-        <form name="loginForm" action="#"   onsubmit="return validar()" method="post">
+        <form action="#" onsubmit="return validar()">
           <label for="usuario">Usuario:</label>
           <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
-          <p id="texerroruser"></p>
       </div>
       <div class="contenedor-interno">
         <label for="contrasena">Contraseña:</label>
         <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
-        <p id="texerrorcontrasena"></p>
       </div>
       <div class="botones">
         <div class="contenedor-interno">
-          <button type="submit" class="boton-enlace" >Entrar</button>
+          <button type="submit" class="boton-enlace">Entrar</button>
         </div>
         <div class="contenedor-interno">
-          <a href="crearUsuario.html" class="boton-enlace">Crear Usuario</a>
+          <button href="crearUsuario.html" class="boton-enlace">Crear Usuario</button>
         </div>
         </form>
       </div>
+      <p id="texerroruser" style="color: red;"></p>
     </div>
-  </div>
-  </div>
-
+  </div>
 </body>
 
 </html>

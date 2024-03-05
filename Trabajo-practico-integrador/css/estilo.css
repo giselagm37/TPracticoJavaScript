@@ -214,17 +214,6 @@ div.contenido7 h2{
     text-align: center;
 }
 
-.lista2 .cta a {
-    background-color: #ff9900; /* Color de fondo del botón */
-    color: #333; /* Color del texto del botón */
-    padding: 8px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.lista2 .cta a:hover {
-    background-color: #ffcc00; /* Color de fondo del botón al pasar el mouse */
-}
 
 ul.listas3{
     padding-inline-start: 0px;

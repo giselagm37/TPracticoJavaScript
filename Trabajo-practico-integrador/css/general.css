@@ -9,19 +9,12 @@ body {
   * {
     font-family: "Montserrat", sans-serif;
   }
-  
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
   }
-
-  .logo img {
-    width: 50%;
-    margin-left: 20px;
-    
-  }
+  
   .menu ul {
     list-style: none;
     margin: 0;
@@ -29,53 +22,67 @@ body {
   
   .menu ul li {
     display: inline-block;
-   padding: 10px 5px;
+    padding: 0px 29px;
   }
   
   .menu ul li:last-child {
-    margin-right: 0;
+    margin-right: 10px;
   }
   
   .menu ul li a {
-    /* vertical, horizontal, difuminacion, color   */
-  text-shadow: 1px 1px 25px greenyellow;
+    text-shadow: 1px 1px 25px greenyellow;
     color: rgba(255, 255, 255, 0.751);
     text-decoration: none;
   }
-  .menu ul li a:hover{
+  
+  .menu ul li a:hover {
     color:  #ffcc00;
   }
-  .login {
+  
+  .login, .logout {
     background-color: #ff9900;
     color: #333;
-    padding: 8px 15px;
+    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 25px;
   }
-  
-  .login:hover {
+  .logout {
+    padding: 8px 4px;
+  }
+  .login:hover, .logout:hover {
     background-color: #ffcc00;
   }
   
-header, footer {
-    background-color: transparent;
+  /* Ajustes para los botones de login y logout */
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login {
+    margin-right: 40px; /* Ajusta el espaciado entre los botones */
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.59);
     position: fixed;
     width: 100%;  
-    flex-shrink: 0; /* Evita que el header y el footer se reduzcan para ajustarse a su contenido */
   }
-  .activo{
-    background-color: gray
-
-  }
+  
   footer {
+    background-color: rgba(0, 0, 0, 0.59);
     position: relative;
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     bottom: 0;
     margin-top: auto;
   }
-  .parrafo{
+  
+  .activo {
+    background-color: gray;
+  }
+  
+  .parrafo {
     position: relative;
     top: 20%;
     margin-right: 30px;

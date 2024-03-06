@@ -1,4 +1,4 @@
-let index = 1;
+let index = 0;
 const contenedor = document.querySelector('img'); // Selecciona la etiqueta img
 const frases = [
   "La tecnología es el faro de la civilización moderna.",
@@ -15,8 +15,13 @@ const frases = [
 function carrusel(n) {
     index += n;
 
-    contenedor.src = "img/galeria/" + index + ".jpg"; // Cambia la src de la imagen
-    document.querySelector('h1').innerText = frases[index-1];
+    if (index < 0) {
+        index = frases.length - 1;
+    } else if (index >= frases.length) {
+        index = 0;
+    }
+    contenedor.src = "img/galeria/" + (index+1) + ".jpg"; // Cambia la src de la imagen
+    document.querySelector('h1').innerText = frases[index];
 }
 
 carrusel(0);
@@ -33,4 +38,3 @@ setInterval(siguienteImagen, 5000); // Cambia la imagen cada 3 segundos
 
 
 
-// Selecciona el primer H1 y actualiza su texto

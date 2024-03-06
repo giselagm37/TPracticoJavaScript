@@ -1,3 +1,4 @@
+ 
  // Crear el elemento header
  var header = document.getElementById('header')
 
@@ -63,3 +64,17 @@
  nav.appendChild(loginDiv);
  header.appendChild(nav);
 
+try{
+let dato = localStorage.getItem("user");
+console.log(dato)
+let usr=JSON.parse(dato);
+loginLink.textContent = usr.usuarioid;
+}
+catch(e){
+    console.log(e)
+}
+window.addEventListener("beforeunload", function (e){
+
+    this.localStorage.removeItem("user")
+
+});

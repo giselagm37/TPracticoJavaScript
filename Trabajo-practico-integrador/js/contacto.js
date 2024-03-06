@@ -46,6 +46,17 @@ function validacion() {
 function mostrarDatosEnviados(nombre, email, mensaje) {
     const datosEnviadosDiv = document.createElement("div");
 
+    datosEnviadosDiv.style.border = "1px solid #240606";
+    datosEnviadosDiv.style.borderRadius = "8px";
+    datosEnviadosDiv.style.backgroundColor = "rgba(0, 0, 0, 0.5);";
+    datosEnviadosDiv.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)";
+    datosEnviadosDiv.style.padding = "20px";
+
+    
+    const tituloDatosEnviados = document.createElement("h2");
+    tituloDatosEnviados.textContent = "DATOS ENVIADOS";
+    datosEnviadosDiv.appendChild(tituloDatosEnviados);
+
     const nombreParrafo = document.createElement("p");
     nombreParrafo.textContent = "Nombre: " + nombre;
     datosEnviadosDiv.appendChild(nombreParrafo);

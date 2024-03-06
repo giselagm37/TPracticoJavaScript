@@ -1,3 +1,4 @@
+let datosMostrados = false;
 function validacion() {
     const nombre = document.getElementById("nombre");
     const email = document.getElementById("email");
@@ -34,7 +35,10 @@ function validacion() {
         return false;
     }
 
-    mostrarDatosEnviados(nombre.value, email.value, textarea.value);
+    if (!datosMostrados) {
+        mostrarDatosEnviados(nombre.value, email.value, textarea.value);
+        datosMostrados = true;
+    }
     
     return true;
 }
